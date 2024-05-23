@@ -1,8 +1,9 @@
 /* ======== HAEDER-SECTION-START ======== */
 
 :root{
-    --header-color: rgb(116, 255, 116);
-    --body-color: rgb(226, 255, 226);
+    --header-color: rgb(228, 228, 228);
+    --body-color: rgb(252, 252, 252);
+    --button-color: rgb(88, 255, 88);
 }
 
 *{
@@ -89,8 +90,27 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 254px 0;
+}
+
+.right-and-left-side .see-more-button{
+    padding: 16px 26px 16px 26px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 2px 2px 0;
+    font-size: 26px;
+    background-color: var(--button-color);
 }
 
 .right-and-left-side .right-side .body-text-1{
     font-size: 54px;
+}
+
+.right-and-left-side .right-side .body-text-2{
+    font-size: 34px;
+    margin: 44px 0 34px 0;
+}
+
+.right-and-left-side .right-side #element{
+    font-weight: 516;
 }

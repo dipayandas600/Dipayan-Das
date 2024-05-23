@@ -28,9 +28,12 @@
     font-size: 44px;
 }
 
+.header-section .navber-section .navber-links ul{
+    display: inline-flex;
+    gap: 26px;
+}
+
 .header-section .navber-section .navber-links ul li{
-    display: inline-block;
-    padding: 0 8px 0 8px;
     list-style: none;
 }
 
@@ -43,4 +46,38 @@
 .header-section .navber-section .navber-links ul li a:hover{
     text-decoration: underline;
     transition: 0.8ms;
+}
+
+.header-section .navber-section .check-button{
+    font-size: 34px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.header-section .navber-section #check{
+    display: none;
+}
+
+.header-section .navber-section #menu-button{
+    color: black;
+}
+
+/* ==== NAVBER-SECTION-COMPLETE ==== */
+
+/* ======== HEADER-SECTION-COMPLETE ======== */
+
+/* ======== BODY-SECTION-START ======== */
+
+.body-section{
+    max-width: 95vw;
+    margin: auto;
+}
+
+/* ==== RIGHT-AND-LEFT-SIDE-START ==== */
+
+.right-and-left-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

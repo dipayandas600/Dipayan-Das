@@ -1,5 +1,10 @@
 /* ======== HAEDER-SECTION-START ======== */
 
+:root{
+    --header-color: rgb(116, 255, 116);
+    --body-color: rgb(226, 255, 226);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +17,7 @@
 /* ==== NAVBER-SECTION-START ==== */
 
 .header-section{
-    background-color: aliceblue;
+    background-color: var(--header-color);
 }
 
 .header-section .navber-section{
@@ -69,6 +74,10 @@
 
 /* ======== BODY-SECTION-START ======== */
 
+body{
+    background-color: var(--body-color);
+}
+
 .body-section{
     max-width: 95vw;
     margin: auto;
@@ -80,4 +89,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.right-and-left-side .right-side .body-text-1{
+    font-size: 54px;
 }

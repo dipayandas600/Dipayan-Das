@@ -31,7 +31,9 @@
 }
 
 .header-section .navber-section .logo h1{
-    font-size: 44px;
+    font-size: 34px;
+    font-weight: 488;
+    text-transform: uppercase;
 }
 
 .header-section .navber-section .navber-links ul{
@@ -54,19 +56,8 @@
     transition: 0.8ms;
 }
 
-.header-section .navber-section .check-button{
-    font-size: 34px;
-    color: white;
-    cursor: pointer;
+.header-section .navber-section .menu-icon{
     display: none;
-}
-
-.header-section .navber-section #check{
-    display: none;
-}
-
-.header-section .navber-section #menu-button{
-    color: black;
 }
 
 /* ==== NAVBER-SECTION-COMPLETE ==== */

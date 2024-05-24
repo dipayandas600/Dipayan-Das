@@ -1,8 +1,8 @@
 /* ======== HAEDER-SECTION-START ======== */
 
 :root{
-    --header-color: rgb(228, 228, 228);
-    --body-color: rgb(252, 252, 252);
+    --header-color: rgb(156, 156, 156);
+    --body-color: rgb(255, 255, 255);
     --button-color: rgb(88, 255, 88);
 }
 
@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    max-width: 95vw;
+    max-width: 80vw;
     margin: auto;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 .body-section{
-    max-width: 95vw;
+    max-width: 80vw;
     margin: auto;
 }
 
@@ -81,7 +81,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 254px 0;
+    margin: 244px 0;
 }
 
 .right-and-left-side .see-more-button{
@@ -104,4 +104,10 @@ body{
 
 .right-and-left-side .right-side #element{
     font-weight: 516;
+}
+
+.right-and-left-side .left-side .background-image{
+    width: 416px;
+    border-radius: 588px;
+    box-shadow: 2px 2px 2px 0;
 }

@@ -64,7 +64,13 @@
     transition: 0.8ms;
 }
 
-.header-section .navber-section .menu-icon{
+.header-section .navber-section .check-button{
+    display: none;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.header-section .navber-section #check{
     display: none;
 }
 

@@ -1,7 +1,7 @@
 /* ======== HAEDER-SECTION-START ======== */
 
 :root{
-    --header-color: rgb(156, 156, 156);
+    --header-color: rgb(226, 226, 226);
     --body-color: rgb(255, 255, 255);
     --button-color: rgb(88, 255, 88);
 }
@@ -19,6 +19,7 @@
 
 .header-section{
     background-color: var(--header-color);
+    border-bottom: 2px solid rgb(88, 255, 88);
 }
 
 .header-section .navber-section{
@@ -28,6 +29,12 @@
     height: 60px;
     max-width: 80vw;
     margin: auto;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-section .navber-section .logo h1{
@@ -49,6 +56,7 @@
     text-decoration: none;
     color: black;
     font-size: 26px;
+    /* display: block; */
 }
 
 .header-section .navber-section .navber-links ul li a:hover{

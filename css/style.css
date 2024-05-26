@@ -117,5 +117,6 @@ body{
 .right-and-left-side .left-side .background-image{
     width: 416px;
     border-radius: 588px;
+    border: 16px solid rgb(88, 255, 88);
     box-shadow: 2px 2px 2px 0;
 }

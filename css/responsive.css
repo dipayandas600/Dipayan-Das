@@ -1,0 +1,15 @@
+@media screen and (max-width: 1634px){
+    .header-section .navber-section{
+        max-width: 95vw;
+    }
+
+    .body-section{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 988px){
+    .header-section .navber-section .navber-links{
+        display: none;
+    }
+}

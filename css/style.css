@@ -56,7 +56,6 @@
     text-decoration: none;
     color: black;
     font-size: 26px;
-    /* display: block; */
 }
 
 .header-section .navber-section .navber-links ul li a:hover{
@@ -64,10 +63,9 @@
     transition: 0.8ms;
 }
 
-.header-section .navber-section .check-button{
-    display: none;
-    font-size: 34px;
+.header-section .navber-section .check-button .menu-icon{
     cursor: pointer;
+    display: none;
 }
 
 .header-section .navber-section #check{

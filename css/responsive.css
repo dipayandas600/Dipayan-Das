@@ -8,36 +8,6 @@
     }
 }
 
-@media screen and (max-width: 954px){
-    .header-section .navber-section .check-button{
-        display: block;
-        order: 1;
-        margin-right: 26px;
-    }
-
-    .header-section .navber-section .navber-links ul{
-        position: fixed;
-        top: 80px;
-        right: -100%;
-        background-color: whitesmoke;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.8ms;
-    }
-
-    .header-section .navber-section .navber-links ul li{
-        margin: 26px 0;
-    }
-
-    .header-section .navber-section .navber-links ul li a{
-        font-size: 26px;
-    }
-
-    .header-section .navber-section #check:checked ~ ul{
-        right: 0;
-    }
-}
+/* @media screen and (max-width: 954px){
+    
+} */

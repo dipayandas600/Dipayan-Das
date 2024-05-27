@@ -4,6 +4,8 @@
     --header-color: rgb(226, 226, 226);
     --body-color: rgb(255, 255, 255);
     --button-color: rgb(88, 255, 88);
+    --border-color: rgb(88, 255, 88);
+    --text-color: rgb(88, 255, 88);
 }
 
 *{
@@ -38,9 +40,8 @@
 }
 
 .header-section .navber-section .logo h1{
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 488;
-    text-transform: uppercase;
 }
 
 .header-section .navber-section .navber-links ul{
@@ -55,20 +56,18 @@
 .header-section .navber-section .navber-links ul li a{
     text-decoration: none;
     color: black;
-    font-size: 26px;
+    font-size: 16px;
 }
 
 .header-section .navber-section .navber-links ul li a:hover{
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 488;
     transition: 0.8ms;
 }
 
-.header-section .navber-section .check-button .menu-icon{
+.header-section .navber-section .menu-icon{
     cursor: pointer;
-    display: none;
-}
-
-.header-section .navber-section #check{
     display: none;
 }
 
@@ -93,16 +92,44 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 244px 0;
+    margin: 216px 0 134px 0;
 }
 
 .right-and-left-side .see-more-button{
-    padding: 16px 26px 16px 26px;
-    border-radius: 16px;
+    padding:8px 16px 8px 16px;
+    border-radius: 8px;
     border: none;
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+}
+
+.right-and-left-side .github{
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 2px 0;
+    font-size: 26px;
+    background-color: var(--button-color);
+}
+
+.right-and-left-side .github a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-and-left-side .download-cv{
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 2px 0;
+    font-size: 26px;
+    background-color: var(--button-color);
+}
+
+.right-and-left-side .download-cv a{
+    text-decoration: none;
+    color: black;
 }
 
 .right-and-left-side .right-side .body-text-1{
@@ -116,11 +143,12 @@ body{
 
 .right-and-left-side .right-side #element{
     font-weight: 516;
+    color: var(--text-color);
 }
 
 .right-and-left-side .left-side .background-image{
     width: 416px;
     border-radius: 588px;
-    border: 16px solid rgb(88, 255, 88);
+    border: 16px solid var(--border-color);
     box-shadow: 2px 2px 2px 0;
 }

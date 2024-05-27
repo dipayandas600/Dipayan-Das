@@ -92,7 +92,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 216px 0 134px 0;
+    margin: 216px 0 44px 0;
+}
+
+.social-links{
+    display: flex;
+    gap:88px;
 }
 
 .right-and-left-side .see-more-button{
@@ -106,6 +111,7 @@ body{
 
 .right-and-left-side .github{
     padding: 8px 16px 8px 16px;
+    margin: 0 34px;
     border-radius: 8px;
     border: none;
     box-shadow: 2px 2px 2px 0;

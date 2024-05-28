@@ -200,3 +200,29 @@ p{
     letter-spacing: 8px;
     margin: 8px 0;
 }
+
+.container .progress-container{
+    margin-bottom: 26px;
+}
+
+.container .progress-container .progress-bar{
+    position: relative;
+    width: 488px;
+    height: 26px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.container .progress-container .progress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 788;
+    font-size: 16px;
+    border-radius: 8px;
+    background: green;
+    transition: width .8s linear;
+}

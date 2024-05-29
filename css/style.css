@@ -226,6 +226,11 @@ p{
     margin: 26px 0;
 }
 
+.container .sub-containers{
+    display: flex;
+    justify-content: space-between;
+}
+
 .container .progress-bar-container{
     margin: 16px 0;
 }

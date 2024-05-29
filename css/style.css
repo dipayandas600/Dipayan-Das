@@ -6,6 +6,7 @@
     --button-color: rgb(88, 255, 88);
     --border-color: rgb(88, 255, 88);
     --text-color: rgb(88, 255, 88);
+    --progress-bar-color: rgb(16, 226, 16);
 }
 
 *{
@@ -201,8 +202,17 @@ p{
     margin: 8px 0;
 }
 
+.progress-and-performence .all-texts{
+    display: flex;
+    justify-content: space;
+}
+
+.container{
+    margin: 26px 0;
+}
+
 .container .progress-container{
-    margin-bottom: 26px;
+    margin: 16px 0;
 }
 
 .container .progress-container .progress-bar{
@@ -219,10 +229,11 @@ p{
     left: 0;
     width: 0%;
     height: 100%;
-    color: white;
+    text-align: center;
+    color: black;
     font-weight: 788;
     font-size: 16px;
     border-radius: 8px;
-    background: green;
+    background: var(--progress-bar-color);
     transition: width .8s linear;
 }

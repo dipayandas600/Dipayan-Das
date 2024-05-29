@@ -204,18 +204,33 @@ p{
 
 .progress-and-performence .all-texts{
     display: flex;
-    justify-content: space;
+    justify-content: space-around;
+    gap: 526px;
+}
+
+.progress-and-performence .all-texts .text-1{
+    font-size: 34px;
+    font-weight: 488;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.progress-and-performence .all-texts .text-2{
+    font-size: 34px;
+    font-weight: 488;
+    text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 .container{
     margin: 26px 0;
 }
 
-.container .progress-container{
+.container .progress-bar-container{
     margin: 16px 0;
 }
 
-.container .progress-container .progress-bar{
+.container .progress-bar-container .progress-bar{
     position: relative;
     width: 488px;
     height: 26px;
@@ -223,7 +238,7 @@ p{
     background-color: whitesmoke;
 }
 
-.container .progress-container .progress-bar span{
+.container .progress-bar-container .progress-bar span{
     position: absolute;
     top: 0;
     left: 0;

@@ -293,13 +293,33 @@ p{
     background: white;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .outer .inner span{
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(1) .outer .inner .number{
+    color: black;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(2) .outer .inner .number{
+    color: black;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(3) .outer .inner .number{
+    color: black;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(4) .outer .inner .number{
+    color: black;
+}
+
+circle{
+    fill: none;
+    stroke-width: 16px;
+    stroke: green;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+    transition: 2s linear;
+}
+
+svg{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    background: green;
-    transition: width .8s linear;
 }

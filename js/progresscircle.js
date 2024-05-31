@@ -1,4 +1,4 @@
-let progressCircle = document.querySelector(".progress-circle"),
+let circularProgress = document.querySelector(".circular-progress"),
     progressValue = document.querySelector(".progress-value");
 
 let progressStartValue = 0,
@@ -9,7 +9,7 @@ let progress = setInterval(() => {
     progressStartValue++;
 
     progressValue.textContent = '${progressStartValue}%'
-    progressCircle.style.background = 'conic-gradient(green ${progressStartValue * 3.6}deg, whitesmoke 0deg)'
+    circularProgress.style.background = 'conic-gradient(green ${progressStartValue * 3.6}deg, whitesmoke 0deg)'
 
     if(progressStartValue == progressEndValue){
         clearInterval(progress);

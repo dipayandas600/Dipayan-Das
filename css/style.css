@@ -258,7 +258,28 @@ p{
     transition: width .8s linear;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle{
+.container .sub-containers .sub-container-2{
+    margin: 26px 0;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container{
+    display: flex;
+    gap: 26px;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle-1{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle-2{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .circular-progress{
     position: relative;
     height: 254px;
     width: 254px;
@@ -269,7 +290,7 @@ p{
     justify-content: center;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle::before{
+.container .sub-containers .sub-container-2 .progress-circle-container .circular-progress::before{
     content: "";
     position: absolute;
     height: 216px;
@@ -278,10 +299,40 @@ p{
     background-color: white;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .progress-value{
+.container .sub-containers .sub-container-2 .progress-circle-container .circular-progress .progress-value{
     position: relative;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .progress-text{
+.container .sub-containers .sub-container-2 .progress-circle-container .circular-progress .progress-text{
     position: relative;
+}
+
+.hr-3{
+    margin: 126px 0 0 0;
+}
+
+/* ==== SKILLS-SECTION-COMPLETE ==== */
+
+/* ==== EXPERIENCE-SECTION-START ==== */
+
+.experience .experience-text{
+    text-align: center;
+    font-size: 88px;
+    letter-spacing: 8px;
+    margin: 8px 0;
+}
+
+.experience .experience-container .experience-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0;
+}
+
+.experience .experience-container .experience-cards .experience-card{
+    border: 2px solid black;
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 2px 0;
 }

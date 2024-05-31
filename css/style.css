@@ -258,68 +258,30 @@ p{
     transition: width .8s linear;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container{
-    display: flex;
-    gap: 44px;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle-1{
-    display: flex;
-    flex-direction: column;
-    gap: 116px;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle-2{
-    display: flex;
-    flex-direction: column;
-    gap: 116px;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .outer{
-    height: 244px;
-    width: 244px;
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle{
+    position: relative;
+    height: 254px;
+    width: 254px;
     border-radius: 50%;
-    padding: 12.54px 0 0 12.54px;
-    background: whitesmoke;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .outer .inner{
+    background: conic-gradient(green 3.6deg, whitesmoke 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle::before{
+    content: "";
+    position: absolute;
     height: 216px;
     width: 216px;
     border-radius: 50%;
-    background: white;
+    background-color: white;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(1) .outer .inner .number{
-    color: black;
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .progress-value{
+    position: relative;
 }
 
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(2) .outer .inner .number{
-    color: black;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(3) .outer .inner .number{
-    color: black;
-}
-
-.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle:nth-child(4) .outer .inner .number{
-    color: black;
-}
-
-circle{
-    fill: none;
-    stroke-width: 16px;
-    stroke: green;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 0;
-    transition: 2s linear;
-}
-
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
+.container .sub-containers .sub-container-2 .progress-circle-container .progress-circle .progress-text{
+    position: relative;
 }

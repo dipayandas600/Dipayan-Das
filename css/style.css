@@ -1,12 +1,13 @@
 /* ======== HAEDER-SECTION-START ======== */
 
 :root{
-    --header-color: rgb(226, 226, 226);
-    --body-color: rgb(255, 255, 255);
+    --header-color: rgb(255, 255, 255);
+    --body-color: rgb(244, 252, 244);
     --button-color: rgb(88, 255, 88);
     --border-color: rgb(88, 255, 88);
     --text-color: rgb(88, 255, 88);
     --progress-bar-color: rgb(16, 226, 16);
+    --hover-color: rgb(116, 255, 116);
 }
 
 *{
@@ -117,6 +118,11 @@ body{
     background-color: var(--button-color);
 }
 
+.right-and-left-side .see-more-button:hover{
+    background-color: var(--hover-color);
+    transition: all 0.8ms;
+}
+
 .right-and-left-side .github{
     padding: 8px 16px 8px 16px;
     margin: 0 34px;
@@ -125,6 +131,11 @@ body{
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+}
+
+.right-and-left-side .github:hover{
+    background-color: var(--hover-color);
+    transition: all 0.8ms;
 }
 
 .right-and-left-side .github a{
@@ -139,6 +150,11 @@ body{
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+}
+
+.right-and-left-side .download-cv:hover{
+    background-color: var(--hover-color);
+    transition: all 0.8ms;
 }
 
 .right-and-left-side .download-cv a{

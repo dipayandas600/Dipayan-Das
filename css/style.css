@@ -7,7 +7,7 @@
     --border-color: rgb(88, 255, 88);
     --text-color: rgb(88, 255, 88);
     --progress-bar-color: rgb(16, 226, 16);
-    --hover-color: rgb(116, 255, 116);
+    --hover-color: rgb(0, 244, 0);
 }
 
 *{
@@ -23,7 +23,8 @@
 
 .header-section{
     background-color: var(--header-color);
-    border-bottom: 2px solid rgb(88, 255, 88);
+    /* border-bottom: 2px solid rgb(88, 255, 88); */
+    box-shadow: 2px 2px 2px 0;
 }
 
 .header-section .navber-section{

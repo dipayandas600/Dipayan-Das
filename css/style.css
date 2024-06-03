@@ -25,21 +25,18 @@
     background-color: var(--header-color);
     /* border-bottom: 2px solid rgb(88, 255, 88); */
     box-shadow: 2px 2px 2px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-section .navber-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 68px;
     max-width: 80vw;
     margin: auto;
-}
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .header-section .navber-section .logo h1{
@@ -63,6 +60,7 @@
 }
 
 .header-section .navber-section .navber-links ul li a:hover{
+    color: var(--hover-color);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     font-weight: 488;
@@ -95,7 +93,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 216px 0 8px 0;
+    margin: 268px 0 8px 0;
 }
 
 .social-links{
@@ -110,7 +108,7 @@ body{
     align-items: center;
 }
 
-.right-and-left-side .see-more-button{
+.right-and-left-side .hire-me{
     padding:8px 16px 8px 16px;
     border-radius: 8px;
     border: none;
@@ -119,7 +117,7 @@ body{
     background-color: var(--button-color);
 }
 
-.right-and-left-side .see-more-button:hover{
+.right-and-left-side .hire-me:hover{
     background-color: var(--hover-color);
     transition: all 0.8ms;
 }

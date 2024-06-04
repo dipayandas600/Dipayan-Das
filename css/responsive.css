@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 954px){
+@media screen and (max-width: 988px){
     .header-section .navber-section .menu-icon{
         display: block;
         order: 1;
@@ -31,6 +31,6 @@
     .body-section .right-and-left-side{
         display: flex;
         flex-direction: column-reverse;
-        margin: 54px 0;
+        margin: 88px 0;
     }
 }

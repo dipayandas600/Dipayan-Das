@@ -31,6 +31,6 @@
     .body-section .right-and-left-side{
         display: flex;
         flex-direction: column-reverse;
-        margin: 88px 0;
+        margin: 116px 0;
     }
 }

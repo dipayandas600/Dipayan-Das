@@ -217,24 +217,11 @@ p{
     margin: 8px 0;
 }
 
-.progress-and-performence .all-texts{
-    display: flex;
-    justify-content: space-around;
-    gap: 526px;
-}
-
-.progress-and-performence .all-texts .text-1{
+.container .sub-containers .sub-container-1 .text-1{
+    text-align: center;
     font-size: 34px;
-    font-weight: 488;
-    text-decoration: underline;
     letter-spacing: 2px;
-}
-
-.progress-and-performence .all-texts .text-2{
-    font-size: 34px;
-    font-weight: 488;
     text-decoration: underline;
-    letter-spacing: 2px;
 }
 
 .container{
@@ -273,13 +260,21 @@ p{
     transition: width .8s linear;
 }
 
-.container .sub-containers .sub-container-2{
-    margin: 26px 0;
+.container .sub-containers .sub-container-2 .text-2{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 2px;
+    text-decoration: underline;
 }
+
+/* .container .sub-containers .sub-container-2{
+    margin: 26px 0;
+} */
 
 .container .sub-containers .sub-container-2 .progress-circle-container{
     display: flex;
     gap: 26px;
+    margin: 26px 0;
 }
 
 .container .sub-containers .sub-container-2 .progress-circle-container .progress-circle-1{

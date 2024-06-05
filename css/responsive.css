@@ -33,4 +33,9 @@
         flex-direction: column-reverse;
         margin: 116px 0;
     }
+
+    .skills .progress-and-performence .container .sub-containers{
+        display: flex;
+        flex-direction: column;
+    }
 }

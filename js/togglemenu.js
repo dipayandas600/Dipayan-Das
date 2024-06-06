@@ -1,8 +1,6 @@
-menuIcon = document.querySelector('.menu-icon')
-navSection = document.querySelector('.navber-section')
-navberLinks = document.querySelector('.navber-links')
-menuIcon = document.querySelector('.menu-icon')
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.getElementById('navber-links');
 
-burger.addEventListner('click', ()=>{
-    menuIcon.classList.toggle
-})
+menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});

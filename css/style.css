@@ -347,6 +347,78 @@ p{
     box-shadow: 2px 2px 2px 0;
 }
 
+.experience .experience-container .experience-cards .experience-card .card-header-1{
+    background-image: url(/public/images/experience/amazon.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-2{
+    background-image: url(/public/images/experience/ixigo.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-3{
+    background-image: url(/public/images/experience/portfolio.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-4{
+    background-image: url(/public/images/experience/music.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-5{
+    background-image: url(/public/images/experience/blog.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-6{
+    background-image: url(/public/images/experience/zee.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-7{
+    background-image: url(/public/images/experience/ixigo.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience .experience-container .experience-cards .experience-card .card-header-8{
+    background-image: url(/public/images/experience/ixigo.png);
+    background-size: 100%;
+    background-position: center;
+    height: 134px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
 .hr-4{
     margin: 126px 0 0 0;
 }

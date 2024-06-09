@@ -67,9 +67,22 @@
     transition: 0.8ms;
 }
 
-.header-section .navber-section .menu-icon{
+/* .header-section .navber-section .menu-icon{
     cursor: pointer;
     display: none;
+} */
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line{
+    width: 26px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
 }
 
 /* ==== NAVBER-SECTION-COMPLETE ==== */

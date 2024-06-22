@@ -39,18 +39,4 @@
         display: flex;
         justify-content: center;
     }
-
-    .skills .progress-and-performence .container .sub-containers{
-        display: flex;
-        flex-direction: column;
-        gap: 44px;
-    }
-
-    .skills .progress-and-performence .container .sub-containers .sub-container-1 .progress-bar-container{
-        margin: 16px 78px;
-    }
-
-    .skills .progress-and-performence .container .sub-containers .sub-container-2 .progress-circle-container{
-        margin: 26px 54px;
-    }
 }

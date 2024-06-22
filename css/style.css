@@ -349,6 +349,7 @@ p{
 .experience .experience-container .experience-cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 26px 0;
 }
 
@@ -463,6 +464,7 @@ p{
 .services .services-container .services-cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 26px 0;
 }
 

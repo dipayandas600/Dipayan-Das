@@ -8,6 +8,31 @@
     }
 }
 
+@media screen and (max-width: 1116px){
+    .skills .progress-and-performence .container .sub-containers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills .progress-and-performence .container .sub-containers .sub-container-1 .progress-bar-container .progress-bar-group{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .progress-and-performence .container .sub-containers .sub-container-1 .progress-bar-container .progress-bar-group label{
+        margin: 8px 0 0 0;
+    }
+
+    .skills .progress-and-performence .container .sub-containers .sub-container-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 988px){
     .navber-links{
         display: none;

@@ -25,7 +25,7 @@
 .header-section{
     background-color: var(--header-color);
     /* border-bottom: 2px solid rgb(88, 255, 88); */
-    box-shadow: 2px 2px 2px 0;
+    box-shadow: 2px 2px 2px 0 rgba(88, 255, 88, 788);
     position: fixed;
     top: 0;
     width: 100%;
@@ -470,8 +470,8 @@ p{
 
 .services .services-container .services-cards .services-card{
     border: 2px solid black;
-    width: 316px;
-    height: 316px;
+    width: 278px;
+    height: 278px;
     border-radius: 8px;
     border: none;
     box-shadow: 2px 2px 2px 0;

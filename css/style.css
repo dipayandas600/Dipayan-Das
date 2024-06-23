@@ -43,6 +43,25 @@
 .header-section .navber-section .logo h1{
     font-size: 26px;
     font-weight: 488;
+    animation: slideRight 0.8s ease forwards;
+}
+
+/* .header-section .navber-section #text-animation h1{
+    opacity: 0;
+    transform: translateY(34px);
+    animation: moveright 0.8s linear forwards;
+} */
+
+@keyframes slideRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .header-section .navber-section .navber-links ul{
@@ -58,6 +77,25 @@
     text-decoration: none;
     color: black;
     font-size: 16px;
+    animation: slideLeft 0.8s ease forwards;
+}
+
+/* .header-section .navber-section #text-animation ul li a{
+    opacity: 0;
+    transform: translateY(34px);
+    animation: moveleft 0.8s linear forwards;
+} */
+
+@keyframes slideLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .header-section .navber-section .navber-links ul li a:hover{
@@ -177,16 +215,55 @@ body{
 
 .right-and-left-side .right-side .body-text-1{
     font-size: 54px;
+    animation: slideRight 0.8s ease forwards;
+}
+
+@keyframes slideRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .right-and-left-side .right-side .body-text-2{
     font-size: 34px;
     margin: 44px 0 34px 0;
+    animation: slideRight 0.8s ease forwards;
+}
+
+@keyframes slideRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .right-and-left-side .right-side #element{
     font-weight: 516;
     color: var(--text-color);
+    animation: slideTop 2s ease forwards;
+}
+
+@keyframes slideTop{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .right-and-left-side .left-side .background-image{

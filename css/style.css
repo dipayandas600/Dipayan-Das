@@ -7,7 +7,7 @@
     --border-color: rgb(88, 255, 88);
     --text-color: rgb(88, 255, 88);
     --progress-bar-color: rgb(16, 226, 16);
-    --hover-color: rgb(0, 244, 0);
+    --hover-color: rgb(0, 216, 0);
     --footer-color: rgb(255, 255, 255);
 }
 
@@ -25,7 +25,7 @@
 .header-section{
     background-color: var(--header-color);
     /* border-bottom: 2px solid rgb(88, 255, 88); */
-    box-shadow: 2px 2px 2px 0 rgba(88, 255, 88, 788);
+    box-shadow: 4px 4px 2.8px 0 rgba(88, 255, 88, 788);
     position: fixed;
     top: 0;
     width: 100%;
@@ -151,6 +151,7 @@ body{
 .social-links{
     display: flex;
     gap: 88px;
+    animation: fadeIn 0.8s ease forwards;
 }
 
 .social-links a{
@@ -167,6 +168,19 @@ body{
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .right-and-left-side .hire-me:hover{
@@ -182,6 +196,7 @@ body{
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+    animation: fadeIn 0.8s ease forwards;
 }
 
 .right-and-left-side .github:hover{
@@ -201,6 +216,7 @@ body{
     box-shadow: 2px 2px 2px 0;
     font-size: 26px;
     background-color: var(--button-color);
+    animation: fadeIn 0.8s ease forwards;
 }
 
 .right-and-left-side .download-cv:hover{
@@ -250,11 +266,12 @@ body{
 
 .right-and-left-side .right-side #element{
     font-weight: 516;
+    letter-spacing: 2px;
     color: var(--text-color);
-    animation: slideTop 2s ease forwards;
+    animation: slideUp 2s ease forwards;
 }
 
-@keyframes slideTop{
+@keyframes slideUp{
     0%{
         opacity: 0;
         transform: translateY(100px);
@@ -269,8 +286,8 @@ body{
 .right-and-left-side .left-side .background-image{
     width: 416px;
     border-radius: 588px;
-    border: 16px solid var(--border-color);
-    box-shadow: 2px 2px 2px 0;
+    /* border: 16px solid var(--border-color); */
+    box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
     animation: slideLeft 0.8s ease forwards;
 }
 

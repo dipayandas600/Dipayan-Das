@@ -71,13 +71,13 @@
 
 .header-section .navber-section .navber-links ul li{
     list-style: none;
+    animation: slideLeft 0.8s ease forwards;
 }
 
 .header-section .navber-section .navber-links ul li a{
     text-decoration: none;
     color: black;
     font-size: 16px;
-    animation: slideLeft 0.8s ease forwards;
 }
 
 /* .header-section .navber-section #text-animation ul li a{
@@ -271,6 +271,7 @@ body{
     border-radius: 588px;
     border: 16px solid var(--border-color);
     box-shadow: 2px 2px 2px 0;
+    animation: slideLeft 0.8s ease forwards;
 }
 
 .hr-1{

@@ -241,11 +241,11 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 88px;
-    margin: 54px 0 0 0;
+    margin: 78px 0 78px 0;
 }
 
 .about .about-container .background-image{
-    width: 588px;
+    width: 488px;
     border-radius: 50%;
     box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
 }
@@ -254,11 +254,11 @@ p{
     font-size: 26px;
     font-weight: 488;
     letter-spacing: 2px;
-    line-height: 68px;
+    line-height: 58px;
 }
 
 .hr-2{
-    margin: 178px 0 0 0;
+    margin: 216px 0 0 0;
 }
 
 /* ==== ABOUT-COMPLETE ==== */

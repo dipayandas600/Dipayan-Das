@@ -52,18 +52,6 @@
     animation: moveright 0.8s linear forwards;
 } */
 
-@keyframes slideRight{
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
 .header-section .navber-section .navber-links ul{
     display: inline-flex;
     gap: 26px;
@@ -85,18 +73,6 @@
     transform: translateY(34px);
     animation: moveleft 0.8s linear forwards;
 } */
-
-@keyframes slideLeft{
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
 
 .header-section .navber-section .navber-links ul li a:hover{
     color: var(--hover-color);
@@ -145,12 +121,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 268px 0 8px 0;
+    /* margin: 268px 0 8px 0; */
+    height: 100vh;
 }
 
 .social-links{
     display: flex;
     gap: 88px;
+    margin: 88px 0 0 0;
     animation: fadeIn 0.8s ease forwards;
 }
 
@@ -169,18 +147,6 @@ body{
     font-size: 26px;
     background-color: var(--button-color);
     animation: fadeIn 0.8s ease forwards;
-}
-
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(100%);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
 }
 
 .right-and-left-side .hire-me:hover{
@@ -234,34 +200,10 @@ body{
     animation: slideRight 0.8s ease forwards;
 }
 
-@keyframes slideRight{
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
 .right-and-left-side .right-side .body-text-2{
     font-size: 34px;
     margin: 44px 0 34px 0;
     animation: slideRight 0.8s ease forwards;
-}
-
-@keyframes slideRight{
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
 }
 
 .right-and-left-side .right-side #element{
@@ -271,20 +213,8 @@ body{
     animation: slideUp 2s ease forwards;
 }
 
-@keyframes slideUp{
-    0%{
-        opacity: 0;
-        transform: translateY(100px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 .right-and-left-side .left-side .background-image{
-    width: 416px;
+    width: 468px;
     border-radius: 50%;
     /* border: 16px solid var(--border-color); */
     box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);

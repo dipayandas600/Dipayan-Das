@@ -87,17 +87,8 @@
     display: none;
 } */
 
-.hamburger{
+.menu-icon{
     display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.hamburger .line{
-    width: 26px;
-    height: 4px;
-    background-color: black;
-    margin: 4px 0;
 }
 
 /* ==== NAVBER-SECTION-COMPLETE ==== */

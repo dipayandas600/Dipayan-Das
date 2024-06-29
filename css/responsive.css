@@ -9,6 +9,10 @@
 }
 
 @media screen and (max-width: 1116px){
+    .menu-icon{
+        display: block;
+    }
+    
     .body-section .right-and-left-side{
         display: flex;
         flex-direction: column-reverse;

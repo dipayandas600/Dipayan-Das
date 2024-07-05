@@ -82,14 +82,24 @@
     transition: 0.8ms;
 }
 
+.check-button{
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
 /* .header-section .navber-section .menu-icon{
     cursor: pointer;
     display: none;
 } */
 
-.menu-icon{
+/* .menu-icon{
     display: none;
-}
+} */
 
 /* ==== NAVBER-SECTION-COMPLETE ==== */
 
@@ -212,13 +222,13 @@ body{
     animation: slideLeft 0.8s ease forwards;
 }
 
-.hr-1{
-    margin: 216px 0 0 0;
-}
-
 /* ==== RIGHT-AND-LEFT-SIDE-COMPLETE ==== */
 
 /* ==== ABOUT-START ==== */
+
+.about{
+    height: 100vh;
+}
 
 .about .about-text{
     text-align: center;
@@ -248,13 +258,13 @@ p{
     line-height: 58px;
 }
 
-.hr-2{
-    margin: 216px 0 0 0;
-}
-
 /* ==== ABOUT-COMPLETE ==== */
 
 /* ==== SKILLS-START ==== */
+
+.skills{
+    height: 100vh;
+}
 
 .skills .skills-text{
     text-align: center;
@@ -379,6 +389,10 @@ p{
 
 /* ==== EXPERIENCE-SECTION-START ==== */
 
+.experience{
+    height: 100vh;
+}
+
 .experience .experience-text{
     text-align: center;
     font-size: 88px;
@@ -486,13 +500,13 @@ p{
     padding: 54px 0 0 0;
 }
 
-.hr-4{
-    margin: 126px 0 0 0;
-}
-
 /* ==== EXPERIENCE-SECTION-COMPLETE ==== */
 
 /* ==== SERVICES-SECTION-START ==== */
+
+.services{
+    height: 100vh;
+}
 
 .services .services-text{
     text-align: center;
@@ -517,13 +531,13 @@ p{
     box-shadow: 2px 2px 2px 0;
 }
 
-.hr-5{
-    margin: 126px 0 0 0;
-}
-
 /* ==== SERVICES-SECTION-COMPLETE ==== */
 
 /* ==== CONTACT-SECTION-START ==== */
+
+.contact{
+    height: 100vh;
+}
 
 .contact .contact-text{
     text-align: center;
@@ -585,10 +599,6 @@ p{
 .contact .contact-container .contact-form .form-button:hover{
     background-color: var(--hover-color);
     transition: all 0.8ms;
-}
-
-.hr-6{
-    margin: 126px 0 0 0;
 }
 
 /* ==== CONTACT-SECTION-COMPLETE ==== */

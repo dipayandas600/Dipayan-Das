@@ -283,27 +283,35 @@ p{
     margin: 16px 0;
 }
 
-.container .progress-bar-container .progress-bar{
-    position: relative;
-    width: 488px;
-    height: 26px;
-    border-radius: 8px;
-    background-color: whitesmoke;
+.skill {
+    margin-bottom: 20px;
 }
 
-.container .progress-bar-container .progress-bar span{
+.skill h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background: whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    height: 26px;
+    width: 488px;
+}
+
+.progress {
+    background: var(--progress-bar-color);
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 0%;
-    height: 100%;
-    text-align: center;
-    color: black;
-    font-weight: 788;
-    font-size: 16px;
-    border-radius: 8px;
-    background: var(--progress-bar-color);
-    transition: width .8s linear;
+    transition: width 2s ease-in-out;
 }
 
 .container .sub-containers .sub-container-2 .text-2{

@@ -1,6 +1,22 @@
-const spans = document.querySelectorAll('.progress-bar span');
+document.addEventListener('DOMContentLoaded', () => {
+    const progressBars = document.querySelectorAll('.progress');
+    const percentages = document.querySelectorAll('.percentage');
 
-spans.forEach((span) => {
-    span.style.width = span.dataset.width;
-    span.innerHTML = span.dataset.width;
+    progressBars.forEach(progress => {
+        const value = progress.getAttribute('data-skill');
+        progress.style.width = `${value}%`;
+    });
+
+    percentages.forEach(percentage => {
+        const value = percentage.getAttribute('data-skill');
+        let start = 0;
+        const interval = setInterval(() => {
+            if (start >= value) {
+                clearInterval(interval);
+            } else {
+                start++;
+                percentage.textContent = `${start}%`;
+            }
+        }, 16);
+    });
 });

@@ -35,8 +35,19 @@
 
 .header-section .navber-section .navber-links li{
     list-style: none;
-    font-weight: 588;
-    letter-spacing: .88px;
+}
+
+.header-section .navber-section .navber-links li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 588;
+  letter-spacing: .88px;
+}
+
+.header-section .navber-section .navber-links li a:hover{
+  text-decoration: underline;
+  color: var(--hover-color);
+  transition: all 0.8ms;
 }
 
 .navber-section .hamburger {

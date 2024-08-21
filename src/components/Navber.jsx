@@ -12,24 +12,24 @@ const Navber = () => {
 
   return (
     <header className="header-section">
-        <nav className="navber-section">
-            <h1 className="logo">Dipayan Das</h1>
+      <nav className="navber-section">
+        <h1 className="logo">Dipayan Das</h1>
 
-            <ul className={`navber-links ${isOpen ? 'open' : ''}`}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Experience</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
+        <ul className={`navber-links ${isOpen ? 'open' : ''}`}>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Skills</a></li>
+          <li><a href="">Experience</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
 
-            <div className="hamburger" onClick={toggleMenu}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-            </div>
-        </nav>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+      </nav>
     </header>
   );
 };

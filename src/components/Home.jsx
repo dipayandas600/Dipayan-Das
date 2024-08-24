@@ -20,9 +20,9 @@ const Home = () => {
           <h1 className="text-2">I Am A</h1>
           
           <div className="buttons">
-            <button className="hire-me">Hire Me</button>
-            <button className="github">Github</button>
-            <button className="download-cv">Download CV</button>
+            <button className="hire-me" id='buttons'>Hire Me</button>
+            <button className="github" id='buttons'>Github</button>
+            <button className="download-cv" id='buttons'>Download CV</button>
           </div>
           
           <div className="social-links">

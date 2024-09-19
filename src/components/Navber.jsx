@@ -1,36 +1,27 @@
-import React, { useState } from 'react';
-import './Navber.css';
-import '../components/Pages/Responsive1.css';
+import React from 'react';
+import '../../src/App.css';
 
 const Navber = () => {
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <header className="header-section">
+    <div className="navber">
       <nav className="navber-section">
         <h1 className="logo">Dipayan Das</h1>
-
-        <ul className={`navber-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Contact</a></li>
+        
+        <ul className="navber-links">
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
         </ul>
-
-        <div className="hamburger" onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
+        
+        <div className="upload-and-user">
+          <button className="upload-button">Upload</button>
+          <button className="user-button"><img src="" alt="" className="user-icon" /></button>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 

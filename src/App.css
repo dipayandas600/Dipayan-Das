@@ -70,3 +70,53 @@
 }
 
 /* ======== NAVBER-SECTION-COMPLETE ======== */
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 188px 0 188px;
+}
+
+.home .right-side{
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.home .right-side .text-1{
+  font-size: 54px;
+  font-weight: 588;
+  letter-spacing: .88px;
+}
+
+.home .right-side .text-2{
+  font-weight: 588;
+  letter-spacing: .88px;
+}
+
+.home .right-side .explore-button{
+  padding: 16px 0 16px 0;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--button-color);
+  font-size: 26px;
+  font-weight: 588;
+  letter-spacing: 2px;
+}
+
+.home .right-side .explore-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
+}
+
+.home .right-side .social-links{
+  display: flex;
+  gap: 88px;
+}
+
+.home .left-side .background-image{
+  border-radius: 50%;
+  box-shadow: 0 0 7.88px 7.88px rgba(88, 255, 88, 788);
+}

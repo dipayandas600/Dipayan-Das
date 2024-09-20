@@ -9,16 +9,15 @@ const Navber = () => {
         
         <ul className="navber-links">
           <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Experience</li>
+          <li>Services</li>
+          <li>Contact</li>
         </ul>
         
         <div className="upload-and-user">
           <button className="upload-button">Upload</button>
-          <button className="user-button"><img src="" alt="" className="user-icon" /></button>
         </div>
       </nav>
     </div>

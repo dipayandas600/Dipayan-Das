@@ -1,3 +1,5 @@
+/* ======== NAVBER-SECTION-START ======== */
+
 :root {
   --header-color: rgb(255, 255, 255);
   --body-color: rgb(244, 252, 244);
@@ -7,3 +9,64 @@
   --progress-bar-color: rgb(16, 226, 16);
   --hover-color: rgb(0, 244, 0);
 }
+
+.navber{
+  background-color: var(--header-color);
+  box-shadow: 1.16px 1.16px 2.8px 2.8px rgba(88, 255, 88, 788);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navber .navber-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.navber .navber-section .logo{
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: .88px;
+}
+
+.navber .navber-section .navber-links{
+  display: flex;
+  gap: 44px;
+}
+
+.navber .navber-section .navber-links li{
+  list-style: none;
+  font-weight: 588;
+  letter-spacing: .88px;
+}
+
+.navber .navber-section .navber-links li:hover{
+  color: var(--text-color);
+  transition: all 0.8ms;
+}
+
+.navber .navber-section .upload-and-user{
+  display: flex;
+  gap: 16px;
+}
+
+.navber .navber-section .upload-and-user .upload-button{
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--button-color);
+  font-weight: 588;
+  letter-spacing: .88px;
+  cursor: pointer;
+}
+
+.navber .navber-section .upload-and-user .upload-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
+}
+
+/* ======== NAVBER-SECTION-COMPLETE ======== */

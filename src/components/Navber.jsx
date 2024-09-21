@@ -20,10 +20,8 @@ const Navber = () => {
           <li>Contact</li>
         </ul>
 
-        <div className="upload-and-user">
-          <a href="">
-            <button>Github</button>
-          </a>
+        <div className="buttons">
+          <a href=""><button>Github</button></a>
           {/* <div className="social-links">
             <a href=""><img src={whatsapp} width='34px' alt="" className="button" /></a>
             <a href=""><img src={telephone} width='34px' alt="" className="button" /></a>

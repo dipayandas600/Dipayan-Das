@@ -49,27 +49,25 @@
   transition: all 0.8ms;
 }
 
-.navber .navber-section .upload-and-user{
-  display: flex;
-  gap: 16px;
-}
-
-.navber .navber-section .upload-and-user .upload-button{
+.navber .navber-section .buttons a button{
   padding: 8px 16px 8px 16px;
   border-radius: 16px;
   border: none;
   background-color: var(--button-color);
+  font-size: 16px;
   font-weight: 588;
   letter-spacing: .88px;
   cursor: pointer;
 }
 
-.navber .navber-section .upload-and-user .upload-button:hover{
+.navber .navber-section .buttons a button:hover{
   background-color: var(--hover-color);
   transition: all 0.8ms;
 }
 
 /* ======== NAVBER-SECTION-COMPLETE ======== */
+
+/* ======== HOME-SECTION-START ======== */
 
 .home{
   display: flex;
@@ -88,11 +86,13 @@
 .home .right-side .text-1{
   font-size: 54px;
   font-weight: 588;
+  color: white;
   letter-spacing: .88px;
 }
 
 .home .right-side .text-2{
   font-weight: 588;
+  color: white;
   letter-spacing: .88px;
 }
 
@@ -100,7 +100,8 @@
   padding: 16px 0 16px 0;
   border-radius: 16px;
   border: none;
-  background-color: var(--button-color);
+  /* background-color: var(--button-color); */
+  background-image: linear-gradient(to right, rgb(0, 34, 0) , rgb(0, 188, 0));
   font-size: 26px;
   font-weight: 588;
   letter-spacing: 2px;
@@ -117,6 +118,8 @@
 }
 
 .home .left-side .background-image{
-  border-radius: 50%;
+  border-radius: 116px;
   box-shadow: 0 0 7.88px 7.88px rgba(88, 255, 88, 788);
 }
+
+/* ======== HOME-SECTION-COMPLETE ======== */
